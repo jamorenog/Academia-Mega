@@ -10,8 +10,8 @@ var apellido = "Moreno";
 var nombreCompleto = `${nombre} ${apellido}`
 var edad = 55;
 
-console.log(`Hola, soy ${nombreCompleto} y tengo ${edad} años`);
-console.log("Hola, soy "+ nombreCompleto + " y tengo "+ edad + " años");
+console.log(`Hola, Soy ${nombreCompleto} y tengo ${edad} años`);
+console.log("Hola, Soy "+ nombreCompleto + " y tengo "+ edad + " años");
 
 
 //Comparación 
