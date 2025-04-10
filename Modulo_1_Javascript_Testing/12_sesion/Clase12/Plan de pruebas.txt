@@ -1,0 +1,17 @@
+|   Id  |      Descripción               | Entrada             | Resultado Esperado             |     Resultado Obtenido         |          |
+| Prueba|                                |		  		       | 				                 |                                | Estado   |
+| ----- | ------------------------------ | ----------------    | ------------------------------ | ------------------------------ | -------- |
+|  TC01 | Login exitoso con              | Usuario: jmoreno    | Mensaje: "Login exitoso"       | Mensaje: "Login exitoso"       |  EXITOSO |
+|       | credenciales validas           | Contraseña: elmismo |								 |							      |          |
+|  TC02 | Contraseña incorrecta          | Usuario: jmoreno    | Mensaje: "Usuario o contraseña | Mensaje: "Usuario o contraseña |   ERROR  |
+|       |                                | Contraseña: 1234    | incorrectos"                   | incorrectos"                   |          |
+|  TC03 | Usuario incorrecto             | Usuario: jorge      | Mensaje: "Usuario o contraseña | Mensaje: "Usuario o contraseña |   ERROR  |
+|       |                                | Contraseña: elmismo | incorrectos"   			     | incorrectos"                   |          |
+|  TC04 | Ambos campos vacios            | Usuario:            | Mensaje: "Todos los campos son | Mensaje: "Todos los campos son |   ERROR  |
+|       |                                | Contraseña:         | obligatorios"				     | obligatorios"                  |          |
+|  TC05 | Solo campo de usuario vacio    | Usuario:            | Mensaje: "Todos los campos son | Mensaje: "Todos los campos son |   ERROR  |
+|       |                                | Contraseña: elmismo | obligatorios"			         | obligatorios"                  |          |
+|  TC06 | Solo campo de contraseña vacio | Usuario: jmoreno    | Mensaje: "Todos los campos son | Mensaje: "Todos los campos son |   ERROR  |
+|       |                                | Contraseña:         | obligatorios"	     		     | obligatorios"                  |          |
+
+	
