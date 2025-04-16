@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" constant="Jorge Moreno">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas Unitarias</title>
+</head>
+<body>
+    <h1>Prueba Unitaria</h1>
+    <script>
+        function esCorreoVAlido(email){
+            const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+            return regex.test(email);
+        }
+
+        console.log(esCorreoVAlido("usuario@ejemplo.com"));
+        console.log(esCorreoVAlido("correo@gmail"));
+        console.log(esCorreoVAlido(""));
+    </script>
+</body>
+</html>
