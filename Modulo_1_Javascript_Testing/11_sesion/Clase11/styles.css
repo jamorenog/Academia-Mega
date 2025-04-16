@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: #fefefe;
+}
+
+form{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 300px;
+}
+
+label, input{
+    display: block;
+    margin-bottom: 10px;
+    max-width: 300px;
+    padding: 8px 12px;
+}
+
+button{
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: noce;
+    border-radius: 4px;
+}
